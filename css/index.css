@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+
+.container {
+  color: white;
+  font-size: 20px;
+  padding: 0.4rem;
+}
+
+.container nav a{
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0px 20px; 
+}
+
+.container nav a:hover{
+  text-decoration: underline;
+}
+
+.dumbal {
+  width: 91px;
+  height: 61px;
+  filter: invert(100%);
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 1.5rem;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 21px;
+}
+
+.nav-list a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+
+.items-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.background-image{
+  height: 500px;
+  width: 100%;
+  
+
+}
+
+.section{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;  
+}
+
+.gym-img {
+  width: 60%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 25px;
+  border: 2px solid black;
+}
+
+
+.sectionTag {
+  font-size: 33px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  margin-top: -8px;
+}
+
+.py-24{
+  padding-top: 5rem;
+}
+
+.container-link:hover{
+  color:black
+}
+
+.relative1{
+  border-radius: 15px;
+}
+
+.relative1:hover{
+  background-color: rgb(241, 239, 239);
+}
+
+.join-h {
+  font-size: 1.6rem;
+  line-height: 1.75rem;
+  font-weight: bold;
+}
+
+.container1-btn{
+  border-radius: 10px;
+}
+
+.container1-btn:hover{
+  text-decoration: underline;
+} 
