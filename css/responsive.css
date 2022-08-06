@@ -1,9 +1,14 @@
-@media (max-width: 479px){
+@media (max-width: 530px){
 
     .section {
         flex-direction: column;
     }
-    .gym-img{
-        border-image-width : 50px;
-    } 
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .gym-img {
+        width: 270px;
+        height: 270px;
+    }
 }
