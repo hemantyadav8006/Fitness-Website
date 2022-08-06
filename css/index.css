@@ -123,3 +123,74 @@ header {
 .container1-btn:hover{
   text-decoration: underline;
 } 
+
+.text-price {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.text-sm1 {
+  color : black;
+  font-size: 1.52rem;
+  font-weight: bold;
+  line-height: 1.25rem;
+}
+
+.div-pad {
+  justify-content: center;
+  align-items: center;
+}
+
+.sm-text {
+  font-size: 2.875rem;
+  line-height: 2.25rem;
+  font-weight: bold;
+}
+
+.color {
+  background:linear-gradient(to right, rgb(161, 132, 132), rgb(236, 206, 195));
+  border-radius: 15px;
+}
+
+.name {
+  font-size: 1.4rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.row {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 15px;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.col-lg-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.contact {
+  color: rgb(255, 0, 0);
+}
+
+.footer-social {
+  color: white;
+  background: black;
+  border: 3px solid black;
+  border-radius: 7px;
+}
+
+.footer-social:hover {
+  background: red;
+  border: 3px solid red;
+}
