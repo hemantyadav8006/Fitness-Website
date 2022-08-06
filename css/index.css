@@ -5,7 +5,7 @@
 }
 
 header {
-  background-color: black;
+  background-color: rgb(26, 24, 24);
   position: sticky;
   top: 0;
 }
@@ -75,6 +75,9 @@ header {
   margin: auto;  
 }
 
+/* .nav {  
+  z-index:100000000000000;
+} */
 .gym-img {
   width: 60%;
   height: 40%;
