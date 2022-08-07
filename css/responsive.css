@@ -1,12 +1,26 @@
-@media (max-width: 530px){
-
-    .section {
-        flex-direction: column;
-    }
-    .nav {
+@media (max-width: 1024px) {
+    .container {
+        margin: auto;
         display: flex;
         flex-direction: column;
     }
+    .nav {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .sectionTag {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .section {
+        flex-direction: column;
+    }
+    
     .gym-img {
         width: 270px;
         height: 270px;
