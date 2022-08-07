@@ -10,6 +10,9 @@ header {
   top: 0;
 }
 
+.nav-list:hover {
+  
+}
 .container {
   color: white;
   font-size: 20px;
@@ -19,11 +22,14 @@ header {
 .container nav a{
   font-size: 22px;
   cursor: pointer;
-  padding: 0px 20px; 
+  padding: 6px 20px; 
+  text-transform: uppercase;
 }
 
 .container nav a:hover{
-  text-decoration: underline;
+  box-shadow: 0 0 5px red,
+              0 0 5px rgb(223, 98, 98);
+  transition: .4s;
 }
 
 .dumbal {
@@ -31,28 +37,6 @@ header {
   height: 61px;
   filter: invert(100%);
 }
-
-.nav-list {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  font-size: 22px;
-  line-height: 1.5rem;
-}
-
-.nav-list a {
-  color: white;
-  text-decoration: none;
-  padding: 0px 21px;
-}
-
-.nav-list a:hover {
-  color: gray;
-  text-decoration: underline;
-}
-
 
 .items-center {
   align-items: center;
@@ -75,9 +59,6 @@ header {
   margin: auto;  
 }
 
-/* .nav {  
-  z-index:100000000000000;
-} */
 .gym-img {
   width: 60%;
   height: 40%;
@@ -124,7 +105,9 @@ header {
 }
 
 .container1-btn:hover{
-  text-decoration: underline;
+  transition: .5s;
+  border: 1px solid black;
+  box-shadow: 0 0 5px black;
 } 
 
 .text-price {
@@ -197,3 +180,8 @@ header {
   background: red;
   border: 3px solid red;
 }
+
+.price-bg-color:hover {
+  background: rgb(248, 245, 245);
+}
+
