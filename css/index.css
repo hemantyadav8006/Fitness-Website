@@ -8,6 +8,7 @@ header {
   background-color: rgb(26, 24, 24);
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 
 .nav-list:hover {
