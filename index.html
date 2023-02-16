@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/index.css">
-  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/responsive.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <title> Hemant | Fitness </title>
 
@@ -14,19 +14,29 @@
 
 <body>
   <header class="text-gray-600 body-font">
-    <div class="container mx-auto flex flex-wrap flex-col md:flex-row items-center">
-      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-        <img src="dumbal.png" alt="logo" class="dumbal">
-        <span class="ml-3 text-white">Hemant Fitness Center</span>
-      </a>
-      <nav class="nav md:ml-auto flex flex-wrap items-center text-base justify-center">
-        <a class="mr-5 hover:text-red-500" href="#Home">Home</a>
-        <a class="mr-5 hover:text-red-500" href="#join">Join Us</a>
-        <a class="mr-5 hover:text-red-500" href="#price">Prices</a>
-        <a class="mr-5 hover:text-red-500" href="#about">About Us</a>
-      </nav>
-
-    </div>
+    <nav id="navbar">
+      <div id="logo">
+          <img src="./dumbal.png" alt="GYM LOGO">
+          <span>Hemant Fitness Center</span>
+      </div>
+      <div class="navigation">
+          <input type="checkbox" class="toggle-menu">
+          <div class="hamburger"></div>
+          <ul class="menu">
+              <li class="item">
+                  <a href="#">Home</a>
+              </li>
+              <li class="item">
+                  <a href="#">Join Us</a>
+              </li>
+              <li class="item">
+                  <a href="#">Prices</a>
+              </li>
+              <li class="item">
+                  <a href="#">About Us</a>
+              </li>
+      </div>
+  </nav>
   </header>
 
   <background class="background-image" id="Home">
@@ -34,7 +44,7 @@
   </background>
 
   <section1 class="section text-gray-600 body-font">
-    <p class="sectionTag flex">Kickstart Your Journey with Hemant's Fitness Center </p>
+    <h1 class="section-Text flex">Kickstart Your Journey with Hemant's Fitness Center </h1>
     <div class="section-img ">
       <img src="https://source.unsplash.com/720x600/?fitness,gym" alt="logo" class="gym-img">
     </div>
@@ -45,13 +55,13 @@
 
   <section2 class="text-gray-600 body-font" id="join">
     <div class="container1 px-5 py-24 mx-auto flex flex-wrap items-center">
-      <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+      <div class="join-text-width pr-0">
         <h1 class="title-font font-medium text-3xl text-gray-900">Welcome To The Best GYM In Your Locality.</h1>
         <p class="leading-relaxed mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores itaque
           aspernatur maxime corporis, quos dolorem pariatur labore ipsam placeat eligendi impedit, odit unde hic quam et
           facilis maiores voluptatum asperiores?</p>
       </div>
-      <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+      <div class="join-width bg-gray-100 rounded-lg p-8 flex flex-col w-full mt-10">
         <h2 class="join-h text-gray-900 font-large title-font mb-5">Join Us</h2>
         <div class="relative mb-4">
           <label for="full-name" class="leading-7 text-sm text-gray-600">Full Name</label>
@@ -302,10 +312,10 @@
           </div>
       </div>
     </div>
-<hr>
+    <hr>
     <div class="container-footer px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-        <img src="dumbal.png" alt="logo" class="dumbal">
+        <img src="/dumbal.png" alt="logo" class="dumbal">
         <span class="ml-3 text-xl">Fitness Center</span>
       </a>
       <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">&copy 2020
