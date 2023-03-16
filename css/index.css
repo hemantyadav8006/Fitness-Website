@@ -30,14 +30,14 @@ header {
 
 #logo img{
   margin-left: 20px;
-  height: 60px;
+  height: 50px;
   cursor: pointer;
   filter: invert(100%);
 }
 
 #logo span {
   color: white;
-  width: 277px;
+  width: 190px;
   font-size: 24px;
   font-weight: bold;
   display: flex;
@@ -219,19 +219,25 @@ header {
 
 .container1-btn:hover{
   transition: .5s;
-  border: 1px solid black;
   box-shadow: 0 0 5px black;
 } 
 
 /* Section3 */
+
+/* Colorize-zoom Container */
+.price-bg-color  {
+  transition: transform .5s, filter 1.5s ease-in-out;
+}
+
+ /* The Transformation  */
+.price-bg-color:hover  {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
 .text-price {
   font-size: 3.5rem;
   font-weight: bold;
-}
-
-
-.price-bg-color:hover {
-  background: rgb(248, 245, 245);
 }
 
 .text-sm1 {
@@ -260,6 +266,7 @@ header {
   text-decoration: underline;
 }
 
+/* footer */
 .row {
   margin-top: 32px;
   display: flex;
@@ -297,8 +304,6 @@ header {
 }
 
 
-
-/* footer */
 .dumbal {
   width: 91px;
   height: 61px;
